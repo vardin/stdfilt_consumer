@@ -50,7 +50,7 @@ public class cuda_matrix {
 		JCudaDriver.setExceptionsEnabled(true);
 
 		// Create the PTX file by calling the NVCC
-		String ptxFileName = JCudaSamplesUtils.preparePtxFile("target/classes/kernels/stdfilt.ptx");
+		String ptxFileName = JCudaSamplesUtils.preparePtxFile("src/main/resources/kernels/stdfilt.ptx");
 
 		// Initialize the driver and create a context for the first device.
 		cuInit(0);
