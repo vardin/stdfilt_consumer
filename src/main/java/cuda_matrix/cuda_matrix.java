@@ -65,7 +65,7 @@ public class cuda_matrix {
 		// Load the ptx file.
 		module = new CUmodule();
 //		cuModuleLoad(module, "src/main/resources/kernels/JCudaVectorMatrixMultiplication.ptx"); //window version
-		cuModuleLoad(module, "target/classes/kernels/stdfilt.ptx"); //linux version
+		cuModuleLoad(module, ptxFileName); //linux version
 
 		// Obtain a function pointer to the "add" function.
 		function = new CUfunction();
