@@ -75,7 +75,7 @@ public class matrix_consumer {
 						// frame.render(data);
 	//					jcuda_matrix.cudaCleanUp();
 						
-						System.out.println("Processing complete! \n");
+						System.out.println("Processing complete! \n ------");
 					
 					
 			}
