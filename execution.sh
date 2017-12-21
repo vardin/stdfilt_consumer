@@ -1,1 +1,1 @@
-./target/consumer
+time ./target/consumer
