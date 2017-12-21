@@ -20,10 +20,12 @@ import kafka.message.MessageAndMetadata;
 
 public class matrix_consumer {
 
-	private static final String TOPIC = "gpu1";
+	private static final String TOPIC = "std2";
 	private static final int NUM_THREADS = 1;
 
 	// static{ System.loadLibrary(Core.NATIVE_LIBRARY_NAME); }
+	
+	
 	
 	public static void main(String[] args) throws Exception {
 
