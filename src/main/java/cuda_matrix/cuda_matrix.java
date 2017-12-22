@@ -95,9 +95,9 @@ public class cuda_matrix {
 	//			hostInputA = input.clone();
 	//			hostInputB = input.clone();
 		
-	//			System.out.println("hostInputA[0] ="+hostInputA[0]);
-	//			System.out.println(hostInputA[0]);
-	//			System.out.println(hostInputA[1]);
+				System.out.println("hostInputA[0] ="+hostInputA[0]);
+				System.out.println(hostInputA[0]);
+				System.out.println(hostInputA[1]);
 				
 				// Allocate the device input data, and copy the
 				// host input data to the device
